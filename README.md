@@ -15,9 +15,9 @@ b.) Now we take input of these simplified trees (in this case 1000 trees) to for
 -The output sheet would be saved in this directory itself named as- species_presence_matrix.xlsx
 
 Now we need to know the number of genes a species is present in.
--Use the python script “chart.py”
+-Use the python script “matrix.py”
 -Here, the input would be the same as the previous one, the path to simplified_trees directory. Here, basically it goes into this directory, finds the species_presence_matrix.xlsx file and reads it.
--The output would be file- 
+-The output would be file- “output_with_chart.xlsx”
 -In this excel sheet there are 2 sheets. The first one gives the count of genes in which every 190 species is present in descending order and a plot corresponding to it.
 -The second excel sheet gives a the same table as of species_presence_matrix.xlsx
 But just in descending order.
